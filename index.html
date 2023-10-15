@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/destyle.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- アイコン -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- アイコンエラー回避 -->
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <title>BGM付きポートフォリオサイト</title>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <ul>
+        <button id="playBtn">
+          <span class="material-icons" id="icon">music_note</span>
+          <span>Music</span>
+        </button>
+        <li><a href="home">Home</a></li>
+        <li><a href="articles">Articles</a></li>
+        <li><a href="shop">Shop</a></li>
+        <li><a href="Profile">Profile</a></li>
+      </ul>
+    </header>
+    <!-- メイン -->
+    <main>
+      <!-- ポートフォリオサイトの画像 -->
+      <div class="main-img-box">
+        <img src="assets/images/main.jpg" alt="メイン画像" />
+        <!-- ウェルカムメッセージ -->
+        <div class="welcome-msg">
+          <h1>Welcome!</h1>
+        </div>
+      </div>
+      <!-- 新着記事3つ -->
+      <div class="new-articles">
+        <!-- 新着記事 -->
+        <div class="article">
+          <button>
+            <img
+              src="assets/images/arashiyama.jpg"
+              alt="新着投稿記事の画像１"
+            />
+            <p>秋の京都に行ってきた！</p>
+          </button>
+        </div>
+        <!-- 新着記事 -->
+        <div class="article">
+          <button>
+            <img src="assets/images/montblanc.jpg" alt="新着投稿記事の画像２" />
+            <p>京都のモンブランをご紹介</p>
+          </button>
+        </div>
+        <!-- 新着記事 -->
+        <div class="article">
+          <button>
+            <img src="assets/images/otera.jpg" alt="新着投稿記事の画像３" />
+            <p>おすすめの紅葉名所 in京都</p>
+          </button>
+        </div>
+      </div>
+      <!-- View Moreボタン -->
+      <button id="view-more">View More...</button>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+      <!-- SNS -->
+      <ul>
+        <li id="facebook"><a href="facebook">Facebook</a></li>
+        <li id="instagram"><a href="instagram">Instagram</a></li>
+        <li id="twitter"><a href="twitter">Twitter</a></li>
+      </ul>
+      <!-- コピーライト -->
+      <p>©2023 Bunkei-Engineer-Shun</p>
+    </footer>
+
+    <!-- JavaScriptファイル -->
+    <script src="index.js"></script>
+  </body>
+</html>
