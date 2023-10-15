@@ -79,6 +79,22 @@ main > .main-img-box > .welcome-msg {
   font-size: 60px;
 }
 
+/* 新着記事タイトル */
+main > .new-articles-title-area {
+  background-color: #f0f0f0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+main > .new-articles-title-area > h1 {
+  padding-top: 20px;
+  border-bottom: 2px solid #ec5307;
+}
+
 /* 新着記事全体 */
 main > .new-articles {
   background-color: #f0f0f0;
@@ -143,16 +159,16 @@ footer {
   font-size: large;
   font-weight: bold;
   display: flex;
-  flex-direction: column;
-  gap: 35px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
 }
 
 /* SNSアカウント */
 footer > ul {
   display: flex;
   justify-content: center;
-  gap: 70px;
-  margin-top: 10px;
+  gap: 20px;
 }
 
 footer > ul > #facebook:hover {
@@ -168,4 +184,5 @@ footer > ul > #twitter:hover {
 /* コピーライト */
 footer > p {
   text-align: center;
+  margin-right: 25px;
 }
