@@ -100,6 +100,7 @@ main > .new-articles {
   gap: 200px;
   padding: 100px;
 }
+
 /* 各新着記事 */
 main > .new-articles > .article {
   width: 100%;
