@@ -97,8 +97,6 @@ main > .new-articles-title-area > h1 {
 main > .new-articles {
   background-color: #f0f0f0;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   gap: 200px;
   padding: 100px;
 }
@@ -130,7 +128,6 @@ main > .new-articles > .article > button > p {
 
 /* 記事にマウスが載っているとき */
 main > .new-articles > .article:hover {
-  border-radius: 3%;
   opacity: 0.7;
   color: #ec5307;
 }
